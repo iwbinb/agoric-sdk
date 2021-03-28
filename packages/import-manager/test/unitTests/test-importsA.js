@@ -1,7 +1,7 @@
 // Copyright (C) 2019 Agoric, under Apache License 2.0
 
-import '@agoric/install-ses';
-import test from 'ava';
+import { test } from '@agoric/zoe/tools/prepare-test-env-ava';
+
 import { makeGoodImportManager } from './goodImports';
 
 test('import num is not empty', t => {

@@ -3,8 +3,8 @@
 /* eslint dot-notation: "off" */
 /* eslint object-shorthand: "off" */
 
-import '@agoric/install-ses';
-import test from 'ava';
+import { test } from '@agoric/zoe/tools/prepare-test-env-ava';
+
 import path from 'path';
 import bundleSource from '@agoric/bundle-source';
 import { initSwingStore } from '@agoric/swing-store-simple';

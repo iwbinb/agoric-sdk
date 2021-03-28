@@ -1,6 +1,6 @@
 /* global require __dirname */
-import '@agoric/install-ses';
-import test from 'ava';
+import { test } from '@agoric/zoe/tools/prepare-test-env-ava';
+
 import { initSwingStore } from '@agoric/swing-store-simple';
 
 import {
