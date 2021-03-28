@@ -1,0 +1,9 @@
+Write about setting up your validator:
+Although there are many steps to operate, such as Base environment, node settings, creation Validator, etc. 
+However, the guide is very good and useful, and it will not be error in accordance with the guidance step by step.
+Remember to replace Git_Branch, and get 50 TestNet Tokens from Discord #testnet-faucet Channel. 
+When setting up your validator, you can name your own nickname, and many of the node operators are set to their own URL.
+I am a NYZO's belief, so I also set a similar name and its community website.
+The spec of my VPS is 2core CPU 4GB RAM, 60GB disc. 
+The testnet seems like stability, much better than many TestNet.
+I am looking forward to the next testnet task.
