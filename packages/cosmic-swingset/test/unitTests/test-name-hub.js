@@ -27,7 +27,7 @@ test('makeNameHubKit - reserve and update', async t => {
   const { nameAdmin, nameHub } = makeNameHubKit();
 
   await t.throwsAsync(() => nameHub.lookup('hello'), {
-    message: '"nameKey" not found: .*',
+    message: /"nameKey" not found: .*/,
   });
 
   // Try reserving and looking up.
@@ -51,7 +51,7 @@ test('makeNameHubKit - reserve and delete', async t => {
   const { nameAdmin, nameHub } = makeNameHubKit();
 
   await t.throwsAsync(() => nameHub.lookup('goodbye'), {
-    message: '"nameKey" not found: .*',
+    message: /"nameKey" not found: .*/,
   });
 
   nameAdmin.reserve('goodbye');
@@ -63,11 +63,11 @@ test('makeNameHubKit - reserve and delete', async t => {
   t.falsy(lookedUpGoodbye);
   nameAdmin.delete('goodbye');
   await t.throwsAsync(lookupGoodbyeP, {
-    message: '"nameKey" not found: .*',
+    message: /"nameKey" not found: .*/,
   });
   t.truthy(lookedUpGoodbye);
 
   await t.throwsAsync(() => nameHub.lookup('goodbye'), {
-    message: '"nameKey" not found: .*',
+    message: /"nameKey" not found: .*/,
   });
 });
