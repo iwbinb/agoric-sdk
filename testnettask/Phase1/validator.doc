@@ -1,6 +1,8 @@
 Write about setting up your validator:
 Although there are many steps to operate, such as Base environment, node settings, creation Validator, etc. 
 However, the guide is very good and useful, and it will not be error in accordance with the guidance step by step.
+Due to the limit of the number of Validators, it will be mainly setting by node service. 
+so I think a button installation is not necessary. Off course if you can simplify each environment into a specified, it will be better
 Remember to replace Git_Branch, and get 50 TestNet Tokens from Discord #testnet-faucet Channel. 
 When setting up your validator, you can name your own nickname, and many of the node operators are set to their own URL.
 I am a NYZO's belief, so I also set a similar name and its community website.
